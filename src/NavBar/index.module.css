@@ -1,0 +1,44 @@
+
+
+.Switch{
+    display: flex;
+    flex-flow: row;
+    background-color: black;
+    /* padding: 10px; */
+    color: aliceblue;
+    font-size: 24px;
+}
+
+.AddToRemeinder,.RemeinderList{
+
+    width: 50%;
+    text-align: center;
+    
+}
+.AddToRemeinder:hover,.RemeinderList:hover{
+
+    background-color:mistyrose;
+    color: black;
+}
+
+.containerfluid{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    font-size: 30px;
+    
+}
+.navbar_nav{
+    display: flex;
+    flex-flow: row;
+    list-style-type: none;
+    gap: 5%;
+    width: 50%;
+}
+
+.name{
+    width: 50%;
+    text-align: center;
+    color: green;
+    text-shadow: 1px 1px #ABEBC6;
+}

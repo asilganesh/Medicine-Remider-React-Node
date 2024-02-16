@@ -1,0 +1,35 @@
+
+
+.registerBox{
+
+    height: 70vh;
+    width: 60vw;
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+    margin-top: 5%;
+    gap: 5%;
+    align-items: center;
+
+}
+
+.formElements{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+
+}
+
+.inputElements{
+    border:none;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 100%;
+
+    
+}
+.Link{
+    text-decoration: none;
+}

@@ -1,24 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import AddMedicine from './AddMedicine.js/AddMedicine';
+import RemeinderList from './RemeinderList/RemeinderList';
+import MainComponent from './Main/main';
+import NavigationStack from './NavigationStack/navigationStack';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   {/* <AddMedicine/> */}
+   {/* <RemeinderList/> */}
+
+   {/* <MainComponent/> */}
+
+   <NavigationStack/>
+   </>
+  
   );
 }
 

@@ -1,0 +1,46 @@
+
+
+.formDiv{
+
+    width: 100vw;
+    /* height: 100vh; */
+    /* text-align: center; */
+    display: flex;
+    
+    justify-content: center;
+    margin-top: 5%;
+   
+
+
+}
+
+.form{
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    align-items: start;
+
+    gap:50px;
+    font-size: 20px;
+    
+}
+
+.button{
+    
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #5DADE2;
+    color: white;
+    border: none;
+}
+
+.button:hover{
+    opacity: .8;
+    transform: scale(1.1);
+}
+.AddMedInput{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
